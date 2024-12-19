@@ -462,6 +462,72 @@ border-top: none;
   height: 40px;
 }
 
+.subscribe-text {
+  margin-bottom: 16px;
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+
+.subscribe-input {
+  border: 1px solid #ffffff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.subscribe-input::placeholder {
+  color: #ffffff;
+}
+
+.subscribe-button {
+display: inline-flex;
+  border-radius: 4px;
+    padding: 8px 24px;
+   min-width: 165px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      color: #ffffff;
+      cursor: pointer;
+      background-color: #4D5AE5;
+      border: none;
+    
+}
+
+
+
+
+.subscribe-icon {
+  margin-left: 16px;
+  fill: #ffffff;
+}
+
+.subscribe {
+  margin: 80px; 
+}
+
+
+
 /* modal window */
 
 .backdrop {
@@ -507,3 +573,4 @@ opacity: 1;
 .backdrop:not(.is-open) .modal {
   transform: translate(-50%, -50%) scale(1.5);
 }
+
